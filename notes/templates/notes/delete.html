@@ -1,0 +1,22 @@
+{% load static %}
+
+
+
+{% block content %}
+{% include "notes/navbar.html" %}
+
+
+<link rel="stylesheet" href="{% static 'notes/css/delete.css' %}" />
+<main class="container">
+    <p class="pergunta">Tem certeza que quer deletar o Get-it: "{{item}}"?</p>
+    <hr>
+    <form action="{% url 'deleteNote' item.id %}" method="POST">
+        {% csrf_token %}
+        <div class="card-block">
+            <input type="submit" name="Deletar" class="btn-enviar">
+            <a class="btn-cancelar" href="{% url 'home' %}">Cancelar</a>
+        </div>
+    </form>
+</main>
+
+{% endblock %}

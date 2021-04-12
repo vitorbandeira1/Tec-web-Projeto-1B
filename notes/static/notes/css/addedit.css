@@ -1,0 +1,71 @@
+.textform {
+    color: rgb(136, 136, 133);
+}
+
+.container {
+  display: block;
+  text-decoration: none;
+}
+
+.autoresize {
+  width: 100%;
+  outline: none;
+  resize: none;
+  border-color: transparent;
+  font-family: sans-serif;
+  padding-bottom: 17px;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  transition: background-color 0.3s;
+}
+
+.form-card {
+  margin: auto;
+  margin-top: 25px;
+  width: 45%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.appbar {
+  background-color: #f7d736;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  max-width: 100%;
+}
+.logo {
+  max-width: 6%;
+  height: auto;
+  padding: 10px;
+}
+.subtitle {
+  position: relative;
+  bottom: 30px;
+  vertical-align: middle;
+  color: #000000;
+  font-size: 20px;
+}
+
+/* .titulo {
+e}
+.conteudo {
+e    height: auto;
+    width: 100%;
+}
+
+.tag {
+e}
+ */

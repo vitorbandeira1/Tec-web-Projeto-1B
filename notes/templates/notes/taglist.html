@@ -1,0 +1,27 @@
+{% load static %}
+
+
+{% block content %}
+
+{% include "notes/navbar.html" %}
+<link rel="stylesheet" href="{% static 'notes/css/taglist.css' %}" />
+<main class="container">
+
+    <div class="container-filter">
+        <p class="txt-tag">Digite a tag que deseja filtrar: </p>
+        <form method="GET">
+            {{myFilter.form.tag}}
+            <button class="btn-filtro" type="submit">Filtrar</button>
+        </form>
+    </div>
+    <h3 class="txt-entre">Tags disponíveis:</h3>
+    <div class="container-list">
+        {% for tag in tag_notes %}
+        <div class="">
+            <p>{{tag.tag}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+</main>
+{% endblock %}

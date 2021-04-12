@@ -1,0 +1,300 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: block;
+}
+
+.appbar {
+  background-color: #f7d736;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  max-width: 100%;
+}
+.logo {
+  max-width: 6%;
+  height: auto;
+  padding: 10px;
+}
+.subtitle {
+  position: relative;
+  bottom: 30px;
+  vertical-align: middle;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.form-card {
+  margin: auto;
+  margin-top: 25px;
+  width: 45%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  padding: 8px;
+}
+.form-card-title {
+  font-size: 20px;
+  width: 100%;
+  border-color: transparent;
+  outline: none;
+  padding-bottom: 17px;
+}
+.autoresize {
+  width: 100%;
+  outline: none;
+  resize: none;
+  border-color: transparent;
+  font-family: sans-serif;
+  padding-bottom: 17px;
+}
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  transition: background-color 0.3s;
+}
+
+.card-container {
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  font-family: "Permanent Marker";
+  width: 14%;
+  height: auto;
+  text-align: center;
+  padding: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.first-card-line {
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.card-title {
+  text-align: left;
+  color: #000000;
+  font-size: 19px;
+  padding: 10px;
+  word-break: break-all;
+}
+
+.card-content {
+  color: #4c4c4c;
+  padding: 10px;
+  word-break: break-all;
+}
+
+.small-btn {
+  text-decoration: none;
+  display: inline-block;
+  width: 44%;
+  height: 18px;
+  margin-right: 38%;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 4px;
+  background-color: #888888d0;  
+  color: #ffffff;
+  transition: background-color 0.3s;
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+.X {
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.card-number {
+  text-align: right;
+  color: red;
+  width: 10%;
+  background-color: aquamarine;
+}
+.btn-add {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex; /*CSS3*/
+  align-items: center; /*Vertical align*/
+  justify-content: center;
+  text-decoration: none;
+  width: 60%;
+  margin-left:18% ;
+  font-family: sans-serif;
+  height: 20px;
+  border-width: 0;
+  color: #000000;
+  font-size: 18px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+
+  /* outline: none; */
+  border-radius: 2px;
+  background-color: #fad419;
+  transition: background-color 0.3s;
+}
+
+/* 
+.titulo-pagina {
+  color: #4c4c4c;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form-card {
+  margin: auto;
+  margin-top: 25px;
+  width: 45%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  padding: 8px;
+}
+}
+
+
+
+.alteracao-conteiner {
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.btn-alt {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  transition: background-color 0.3s;
+}
+
+*/
+.card-color-1 {
+  background-color: #ead3a7;
+  padding: 10px;
+}
+.card-color-2 {
+  background-color: #9de0f5;
+}
+.card-color-3 {
+  background-color: #ef89ba;
+}
+.card-color-4 {
+  background-color: #fae890;
+}
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-2 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-3 {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-4 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-5 {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-6 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-7 {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-8 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-9 {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-10 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-11 {
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}

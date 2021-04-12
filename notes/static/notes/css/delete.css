@@ -1,0 +1,71 @@
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.card-block {
+  padding: 10px;
+}
+
+.btn-cancelar {
+  font-family: sans-serif;
+
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  background-color: #ff2d2d;
+  color: #000000;
+  transition: background-color 0.3s;
+}
+.btn-enviar {
+  font-family: sans-serif;
+
+  text-decoration: none;
+  font-weight: bold;
+  width: 20%;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  color: #000000;
+  transition: background-color 0.3s;
+}
+.pergunta {
+  padding-top: 4%;
+  color: #000000;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.appbar {
+  background-color: #f7d736;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  max-width: 100%;
+}
+.logo {
+  max-width: 6%;
+  height: auto;
+  padding: 10px;
+}
+.subtitle {
+  position: relative;
+  bottom: 30px;
+  vertical-align: middle;
+  color: #000000;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
